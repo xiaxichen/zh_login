@@ -465,3 +465,4 @@ var Q = function (e) {
 var get_encrypt = function(e) {
     return Q(e)
 };
+// console.log(get_encrypt("client_id=c3cef7c66a1843f8b3a9e6a1e3160e20&grant_type=password&timestamp=1552739018793&source=com.zhihu.web&signature=3aa8d9c44309ec26bc09b37c9e82a401dfe7c471&username=%2B8617681820023&password=123456&captcha=fxsr&lang=en&ref_source=homepage&utm_source="));

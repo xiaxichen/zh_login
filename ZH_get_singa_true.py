@@ -1,11 +1,13 @@
 # -*- coding utf-8 -*-
+__author__ = 'xiaxichen'
 import hmac, execjs, time, os, requests, json, base64, re, urllib.parse
 from io import BytesIO
 
 from PIL import Image
 
 os.environ["EXECJS_RUNTIME"] = "Node"
-__author__ = 'xiaxichen'
+print(execjs.get().name)
+
 IMAGE_LIST = [[17, 25.1875], [44, 28.1875], [69, 28.1875], [93, 25.1875], [109, 28.1875], [140, 26.1875],
               [177, 13.1875]]
 
